@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:temperature_converter/app/temperature%20_converter_page.dart';
+import 'package:temperature_converter/app/temperature_converter_page.dart';
 
 void main() {
   runApp(const MyApp());
