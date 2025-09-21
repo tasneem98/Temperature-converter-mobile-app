@@ -45,5 +45,5 @@ jobs:
         run: |
           curl -F document=@build/app/outputs/flutter-apk/app-release.apk \
                -F chat_id="$TELEGRAM_CHAT_ID" \
-               -F caption="New APK is ready!🚀" \
+               -F caption="New APK is ready! 🚀\nTemperature converter" \
                "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument"
